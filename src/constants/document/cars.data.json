@@ -1,0 +1,11 @@
+[
+    { "name": "LADA 2100", "model": 3547, "img": "1.png", "speed": 232, "acceleration": 124, "braking": 232, "control": 3.7, "price": 24000, "sale": 20000 },
+    { "name": "LADA 2101", "model": 3548, "img": "2.png", "speed": 232, "acceleration": 124, "braking": 232, "control": 3.7, "price": 24000 },
+    { "name": "LADA 2102", "model": 3549, "img": "3.png", "speed": 232, "acceleration": 124, "braking": 232, "control": 3.7, "price": 24000 },
+    { "name": "LADA 2103", "model": 3551, "img": "4.png", "speed": 232, "acceleration": 124, "braking": 232, "control": 3.7, "price": 24000, "sale": 20000 },
+    { "name": "LADA 2104", "model": 3552, "img": "5.png", "speed": 232, "acceleration": 124, "braking": 232, "control": 3.7, "price": 24000 },
+    { "name": "LADA 2105", "model": 3553, "img": "6.png", "speed": 232, "acceleration": 124, "braking": 232, "control": 3.7, "price": 24000, "sale": 20000 },
+    { "name": "LADA 2106", "model": 3554, "img": "1.png", "speed": 232, "acceleration": 124, "braking": 232, "control": 3.7, "price": 24000, "sale": 20000 },
+    { "name": "LADA 2107", "model": 3555, "img": "2.png", "speed": 232, "acceleration": 124, "braking": 232, "control": 3.7, "price": 24000 }
+]
+    

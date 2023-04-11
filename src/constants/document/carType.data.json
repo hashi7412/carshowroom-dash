@@ -1,0 +1,32 @@
+[
+	{
+		"label": "Compacts",
+		"key": "compacts",
+		"badge": 15
+	},
+	{
+		"label": "Motorcycles",
+		"key": "motorcycles",
+		"badge": 3
+	},
+	{
+		"label": "Muscle",
+		"key": "muscle",
+		"badge": 155
+	},
+	{
+		"label": "Off-Road",
+		"key": "off-road",
+		"badge": 34
+	},
+	{
+		"label": "Rally",
+		"key": "rally",
+		"badge": 54
+	},
+	{
+		"label": "SUVS",
+		"key": "suvs",
+		"badge": 5
+	}
+]

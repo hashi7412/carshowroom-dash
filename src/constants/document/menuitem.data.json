@@ -1,0 +1,4 @@
+[
+    { "label": "Main Page", "link": "/dash/main-page", "key": "main-page" },
+    { "label": "Special Offers", "link": "/dash/special-offers", "key": "special-offers", "badge": "hot" }
+]
