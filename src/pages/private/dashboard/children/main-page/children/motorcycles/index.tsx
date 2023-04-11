@@ -1,6 +1,5 @@
 import React from "react";
 import FBox from "elements/fbox";
-import { Color, ColorPicker, Tooltip } from "./styles/motorcycles.styled";
 import Img from "elements/img";
 import { Box } from "elements";
 import Text from "elements/text";
@@ -61,7 +60,7 @@ const MotorCycles = () => {
                         bdl: '0px solid transparent',
                         bdr: '50px solid transparent',
                         bdt: `20px solid ${BasicVar.color.label}`,
-                        content: ''
+                        content: '\'\''
                     }}
                 >
                     <Heading level={3} color={BasicVar.bg.label}>LADA 2106</Heading>
