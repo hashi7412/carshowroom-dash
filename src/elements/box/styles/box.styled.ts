@@ -7,6 +7,8 @@ export const setStyle = (styles: ElementDefaultProps) => {
 		${styles.position		? `position: ${styles.position};`				: ``}
 		${styles.zIndex			? `z-index: ${styles.zIndex};`					: ``}
 		${styles.top			? `top: ${styles.top};`							: ``}
+		${styles.left			? `left: ${styles.left};`						: ``}
+		${styles.bottom			? `bottom: ${styles.bottom};`					: ``}
 		${styles.right			? `right: ${styles.right};`						: ``}
 		${styles.flex			? `flex: ${styles.flex};`						: ``}
 		${styles.display		? `display: ${styles.display};`					: ``}
@@ -41,8 +43,13 @@ export const setStyle = (styles: ElementDefaultProps) => {
 		${styles.overflowX		? `overflow-x: ${styles.overflowX};`			: ``}
 		${styles.overflowY		? `overflow-y: ${styles.overflowY};`			: ``}
 		${styles.bd				? `border: ${styles.bd};`						: ``}
+		${styles.bdt			? `border-top: ${styles.bdt};`					: ``}
+		${styles.bdb			? `border-bottom: ${styles.bdb};`				: ``}
+		${styles.bdl			? `border-left: ${styles.bdl};`					: ``}
+		${styles.bdr			? `border-right: ${styles.bdr};`				: ``}
 		${styles.clipPath		? `clip-path: ${styles.clipPath};`				: ``}
 		${styles.cursor			? `cursor: ${styles.cursor};`					: ``}
+		${styles.content		? `content: ${styles.content};`					: ``}
 	`
 }
 
@@ -50,8 +57,8 @@ export const setPseudoStyle = ({ after, before, hover, active, other, ...rest }:
 	return `
 		${setStyle(rest)}
 
-		${after ? `${setStyle(after)}` : ``}
-		${before ? `${setStyle(before)}` : ``}
+		${after ? `&:after { ${setStyle(after)} }` : ``}
+		${before ? `&:before { ${setStyle(before)} }` : ``}
 		${other ? other : ``}
 	`
 }
